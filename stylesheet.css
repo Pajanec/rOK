@@ -52,9 +52,22 @@
         color: #000000;
         text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
         line-height: 1.6;
-        font-size: 30px;
+        font-size: 25px;
         font-weight: 300;
         margin-bottom: 30px;
+    }
+    
+    .glass{
+         font-family: fantasy;
+         font-size:40px;
+         font-weight: 500;
+    }
+    
+    .steel{
+        font-family:  Georgia, fantasy;
+        font-size: 30px;
+        font-weight: 400;
+        text-decoration: underline;
     }
 
     .img {
@@ -114,22 +127,7 @@
     }
 
  
-    .container h1 {
-
-        font: 500 130px/0.8 'Great Vibes', Helvetica, sans-serif;
-        color: #fff;
-        text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
-
-    }
-
-
-    .container p {
-        font: 200 25px/0.8 'Great Vibes', Helvetica, sans-serif;
-        ;
-        color: #000000;
-        text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
-    }
-
+   
     .col-lg {
         position: relative;
         min-height: 1px;
