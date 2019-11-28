@@ -12,32 +12,40 @@
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="https://kit.fontawesome.com/71eaf38545.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <title>Document</title>
 
 </head>
 
 <body id="page5">
     <div class="wrapper">
-        <header>
-            <div class="header">
-                <a href="index.html" class="logo">
-                    <h1> Rise of Kingdoms </h1>
-                </a>
-                <div class="header-right">
-                    <a href="commander.html">
-                        <h2>Commanders</h2>
-                    </a>
-                    <a href="lost-kingdom.html">
-                        <h2>Lost Kingdom</h2>
-                    </a>
-                    <a href="aoo.html">
-                        <h2>Ark of Osiris</h2>
-                    </a>
-                    <a href="contact.html">
-                        <h2>Contact Us</h2>
-                    </a>
-                </div>
-            </div>
+           <header>
+   <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="index.html">Rise of Kingdoms</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="nav1">
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="commander.html">Commanders</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="lost-kingdom.html">Lost Kingdom </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="aoo.html">Ark of Osiris</a>
+      </li>    
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact us</a>
+      </li>   
+    </ul>
+    </div>
+  </div>  
+</nav>
 
         </header>
 
@@ -52,9 +60,9 @@
 
 
                                     <div class="form-group">
-                                        <label class="col-md-3 control-label" for="name">Name</label>
+                                        <label class="col-md-3 control-label" for="name" >Name</label>
                                         <div class="col-md-9">
-                                            <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                                            <input id="name" name="name" type="text" placeholder="Your name" class="form-control" required>
                                         </div>
                                     </div>
 
@@ -62,15 +70,15 @@
                                     <div class="form-group">
                                         <label class="col-md-3 control-label" for="email">Your E-mail</label>
                                         <div class="col-md-9">
-                                            <input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+                                            <input id="email" name="email" type="text" placeholder="Your email" class="form-control" required>
                                         </div>
                                     </div>
 
 
                                     <div class="form-group">
-                                        <label class="col-md-3 control-label" for="message">Your message</label>
+                                        <label class="col-md-3 control-label" for="message"  >Your message</label>
                                         <div class="col-md-9">
-                                            <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+                                            <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5" required></textarea>
                                         </div>
                                     </div>
 
@@ -78,7 +86,7 @@
                                     <div class="form-group">
                                         <div class="col-md-12 text-right">
                                             <button type="submit" class="btn btn-primary btn-lg">Submit</button>
-                                            <input type="submit" value='Send' class="btn btn-default">
+                                            
                                         </div>
                                     </div>
                                 </fieldset>
