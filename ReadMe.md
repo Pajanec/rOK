@@ -29,8 +29,7 @@ deeper understanding  of  certain information there is contact form<br>
 under contact us  button, where  user needs to fill name, email and<br>
 question.</p>
 <p>I was using Balsamiq mockups3, recommended by my mentor.  To make a sketch of the idea that I had for my project. From how it would look to  where would text go and how many images,how many pages.<br>
-This here is the link where I have shared  the mock-up. Of course with going deeper into the  making of project itself  mock-up as such  has adapted  and developed  to better suit the need of the project itself.</p>
-<p><a href="https://drive.google.com/drive/folders/1pFnGGzrFh2K1Roh2dxSjSalz2mJLvo2K?usp=sharing">https://drive.google.com/drive/folders/1pFnGGzrFh2K1Roh2dxSjSalz2mJLvo2K?usp=sharing</a></p>
+This here is the <a href="https://drive.google.com/drive/folders/1pFnGGzrFh2K1Roh2dxSjSalz2mJLvo2K?usp=sharing">link</a> where I have shared  the mock-up. Of course with going deeper into the  making of project itself  mock-up as such  has adapted  and developed  to better suit the need of the project itself.</p>
 </li>
 </ol>
 <h1 id="featurestechnologies">Features&amp;Technologies</h1>
