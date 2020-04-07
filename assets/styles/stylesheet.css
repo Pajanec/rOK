@@ -7,19 +7,18 @@
 
 .wrapper {
     min-height: 100vh;
-    /* will cover the 100% of viewport */
+
     overflow: hidden;
     display: block;
     position: relative;
     padding-bottom: 100px;
-    /* height of your footer */
+    
 }
 
 .footer {
     
     position: absolute;
-    
-    width: 100%;
+        width: 100%;
     text-align: center;
     height:40px;
 
@@ -115,11 +114,7 @@
 
 /*----------------Images Start--------------------- */
 
-.img {
-    height: auto;
-    width: auto;
 
-}
 
 .picture-home-page {
 
